@@ -10,8 +10,8 @@ export function Header(){
 
             <div>
                 <div>
-                    <span> Artur Kappel</span>
-                    <p>sair</p>
+                    <button> Artur Kappel</button>
+                    <button>sair</button>
 
                 </div>
                 <img src="https://github.com/arturkappel.png" alt="" />

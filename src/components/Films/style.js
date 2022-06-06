@@ -27,7 +27,8 @@ export const Container = styled.div`
     
     >svg{
         color:${({ theme }) => theme.COLORS.PINK};
-        height:12px;
+        height:14px;
+        width:14px;
         margin-top:12px;
     }
 `

@@ -9,7 +9,6 @@ export const Container = styled.header`
     gap:64px;
 
     width: 100%;
-    height: 115px;
     border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY};
     padding: 0 123px;
     >h1{
@@ -32,13 +31,16 @@ export const Container = styled.header`
         width:120px
         
     }
-    >div>div>p{
-        
+    >div>div>button{
+        background:transparent;
+        border:none;
         font-size: 14px;
         color:${({ theme }) => theme.COLORS.GRAY};
         
     }
-    >div>div>span{
+    >div>div>button{
+        background:transparent;
+        border:none;
         color:white;
         font-weight: 500;
         font-size: 16px;

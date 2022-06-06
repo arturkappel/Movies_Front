@@ -1,6 +1,10 @@
 import styled from "styled-components"
 
 export const Container = styled.button`
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+    color:${({ theme }) => theme.COLORS.GRAY_500};
+   
+
     width: 100%;
     height: 56px;
 
@@ -18,8 +22,9 @@ export const Container = styled.button`
     justify-content:center;
     gap: 8px;
 
-    background-color: ${({ theme }) => theme.COLORS.PINK};
-    color:${({ theme }) => theme.COLORS.GRAY_500};
+   
+    
+
 
     >svg{
         height:16px;
