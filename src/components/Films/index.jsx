@@ -1,12 +1,15 @@
 import { Tag } from "../Tag"
 import { Container } from "./style"
 import { AiFillStar, AiOutlineStar } from "react-icons/ai"
+import { Link } from 'react-router-dom'
 
 
 export function Films(){
     return(
         <Container>
-            <h1> Interstellar </h1>
+            <Link to="details">
+            <h1 className="movie"> Interstellar </h1>
+            </Link>
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />

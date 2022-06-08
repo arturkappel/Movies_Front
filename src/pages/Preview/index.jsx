@@ -3,13 +3,17 @@ import { LetterButton } from "../../components/LetterButton";
 import { Tag } from "../../components/Tag";
 import { Container, Content } from "./style";
 import { AiFillStar, AiOutlineStar, AiOutlineClockCircle, AiOutlineCamera, AiOutlineArrowLeft } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 export function Preview(){
     return(
         <Container>
             <Header />
             <Content>
-                < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
+                <Link to='/'>
+                    < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
+                
+                </Link>
             
                 <div>
                     <h1> Interstellar </h1>

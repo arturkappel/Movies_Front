@@ -13,11 +13,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     grid-area:'content';
-    width:1113px;
+    width:1115px;
     margin: 0 auto;
     overflow-y: auto;
     padding-top: 40px;
     bottom:24px;
+    padding-left:6px;
 
     >h1{
         font-size: 36px;

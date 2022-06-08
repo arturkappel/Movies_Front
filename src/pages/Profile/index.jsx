@@ -3,16 +3,24 @@ import { Container, Header, Form, Avatar } from "./style"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
 import { LetterButton } from "../../components/LetterButton"
-
+import { Link } from "react-router-dom"
 import { AiOutlineMail, AiOutlineUser, AiFillLock, AiOutlineCamera, AiOutlineArrowLeft } from 'react-icons/ai'
 
 export function Profile(){
     return(
         <Container>
-           <Header >
-            < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
-           </Header >
+           <Header>
+           
+           <Link to='/'>
+               < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
+            </Link>
+           
+
+           </Header>
+          
+      
            <Avatar >
+            
                 <img src="https://github.com/arturkappel.png" alt="foto usuário" />
 
                 <label htmlFor="avatar">

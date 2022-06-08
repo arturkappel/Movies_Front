@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { AddTag } from "../../components/AddTag";
 import { Button } from "../../components/Button";
-
+import { Link } from 'react-router-dom'
 
 import { LetterButton } from "../../components/LetterButton";
 import { AiFillStar, AiOutlineStar, AiOutlineClockCircle, AiOutlineCamera, AiOutlineArrowLeft } from 'react-icons/ai'
@@ -16,7 +16,9 @@ export function CreateMovie(){
             <Header />
 
             <Content>
-                < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
+                <Link to="/">
+                    < LetterButton title={'Voltar'} image={ <AiOutlineArrowLeft /> }/>
+                </Link>
 
                 <h1> Novo Filme</h1>
 

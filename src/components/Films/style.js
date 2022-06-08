@@ -9,7 +9,7 @@ export const Container = styled.div`
     background-color:${({ theme }) => theme.COLORS.BACKGROUND_PINK};
     border-radius:16px;
 
-    >h1{
+    .movie{
         font-size: 24px;
         font-weight: 700;
         color:white;

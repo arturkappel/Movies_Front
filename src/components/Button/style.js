@@ -31,7 +31,7 @@ export const Container = styled.button`
     }
 
     &:disabled{
-        opacity:0.5;
-    }
+        opacity:0.1;
+    } 
 
 `

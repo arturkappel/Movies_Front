@@ -1,14 +1,16 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  display:flex;
-  flex-direction:column;
+  
+
 `
-export const Header = styled.header`
+export const Header = styled.div`
     height:144px;
     background-color:${ ({ theme }) => theme.COLORS.BACKGROUND_PINK};
-    
-    padding: 64px 144px 59px;
+    display:flex;
+    padding-left:64px;
+    align-items: center;
+    justify-content:flex-start;
 
 
 `

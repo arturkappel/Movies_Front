@@ -1,6 +1,8 @@
 import { Container } from "./style";
 import { Input } from "../Input";
 
+import { Link } from 'react-router-dom'
+
 export function Header(){
     return(
         <Container >
@@ -10,7 +12,9 @@ export function Header(){
 
             <div>
                 <div>
-                    <button> Artur Kappel</button>
+                    <Link to='/profile'>
+                        <button className="name"> Artur Kappel</button>
+                    </Link>
                     <button>sair</button>
 
                 </div>

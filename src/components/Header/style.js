@@ -31,21 +31,29 @@ export const Container = styled.header`
         width:120px
         
     }
-    >div>div>button{
+     
+    >div>div button{
         background:transparent;
         border:none;
         font-size: 14px;
         color:${({ theme }) => theme.COLORS.GRAY};
         
     }
-    >div>div>button{
+    >div>div .name{
+        background:transparent;
+        border:none;
+        font-size: 16px;
+        color:white;
+        
+    }
+    /* >div>div>button{
         background:transparent;
         border:none;
         color:white;
         font-weight: 500;
         font-size: 16px;
         
-    }
+    } */
     >div>img{
         height: 64px;
         width: 64px;
